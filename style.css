@@ -1,0 +1,101 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;
+    
+  }
+
+.header{
+    display: flex;
+    gap: 40px;
+    text-align: start;
+    padding-top: 20px;
+    justify-content: center;
+    margin-left: -850px;
+}
+
+.register-button{
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.login-register{
+    position: absolute; right: 320px;
+}
+
+.login-register a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a{
+    text-decoration: none; 
+}
+
+p{
+    text-align: start;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+ h1{
+    font-size: 100px;
+    text-align: start;
+    margin-right: 100px;
+    line-height: 120px;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 70px;
+}
+
+.hero-desktop{
+    width:400px;
+    height: 500px;
+}
+
+.learn-more{
+    width: 140px;
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 53px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+.icons{
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+    padding-right: 50px;
+}
